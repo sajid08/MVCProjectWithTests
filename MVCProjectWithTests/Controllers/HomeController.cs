@@ -22,7 +22,7 @@ namespace MVCProjectWithTests.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Not Yourdfd d contact page.";
+            ViewBag.Message = "Not Yourdfccd d contact page.";
 
             return View();
         }
