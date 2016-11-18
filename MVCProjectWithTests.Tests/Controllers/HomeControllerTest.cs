@@ -35,7 +35,7 @@ namespace MVCProjectWithTests.Tests.Controllers
             ViewResult result = controller.About() as ViewResult;
 
             // Assert
-            Assert.AreEqual("Not muuy Your   application description page", result.ViewBag.Message);
+            Assert.AreEqual("Not muuy Your   application description page.", result.ViewBag.Message);
         }
 
         [TestMethod]
