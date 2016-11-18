@@ -15,7 +15,7 @@ namespace MVCProjectWithTests.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Not Your application description page.";
+            ViewBag.Message = "Not my Your application description page.";
 
             return View();
         }
